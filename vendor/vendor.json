@@ -3,6 +3,18 @@
 	"ignore": "test",
 	"package": [
 		{
+			"path": "appengine",
+			"revision": ""
+		},
+		{
+			"path": "appengine_internal",
+			"revision": ""
+		},
+		{
+			"path": "appengine_internal/base",
+			"revision": ""
+		},
+		{
 			"path": "context",
 			"revision": ""
 		},
@@ -19,6 +31,12 @@
 			"path": "github.com/dgrijalva/jwt-go",
 			"revision": "24c63f56522a87ec5339cc3567883f1039378fdb",
 			"revisionTime": "2016-08-31T18:35:34Z"
+		},
+		{
+			"checksumSHA1": "qjr2SKQanbmna221z0Ce2n0hnDE=",
+			"path": "github.com/golang/protobuf/proto",
+			"revision": "df1d3ca07d2d07bba352d5b73c4313b4e2a6203e",
+			"revisionTime": "2016-09-27T20:09:49Z"
 		},
 		{
 			"checksumSHA1": "CD6LF20HjDia29cuNLR8MwNrWyc=",
@@ -121,6 +139,60 @@
 			"path": "golang.org/x/sys/unix",
 			"revision": "8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9",
 			"revisionTime": "2016-09-14T20:33:16Z"
+		},
+		{
+			"checksumSHA1": "OUlby05bSL50Wk1/hbu92mpKmvk=",
+			"path": "google.golang.org/appengine",
+			"revision": "150dc57a1b433e64154302bdc40b6bb8aefa313a",
+			"revisionTime": "2016-09-29T07:07:04Z"
+		},
+		{
+			"checksumSHA1": "4lEP/dEWOMb4r2Aehu0D9iBDgIU=",
+			"path": "google.golang.org/appengine/internal",
+			"revision": "150dc57a1b433e64154302bdc40b6bb8aefa313a",
+			"revisionTime": "2016-09-29T07:07:04Z"
+		},
+		{
+			"checksumSHA1": "x6Thdfyasqd68dWZWqzWWeIfAfI=",
+			"path": "google.golang.org/appengine/internal/app_identity",
+			"revision": "150dc57a1b433e64154302bdc40b6bb8aefa313a",
+			"revisionTime": "2016-09-29T07:07:04Z"
+		},
+		{
+			"checksumSHA1": "TsNO8P0xUlLNyh3Ic/tzSp/fDWM=",
+			"path": "google.golang.org/appengine/internal/base",
+			"revision": "150dc57a1b433e64154302bdc40b6bb8aefa313a",
+			"revisionTime": "2016-09-29T07:07:04Z"
+		},
+		{
+			"checksumSHA1": "5QsV5oLGSfKZqTCVXP6NRz5T4Tw=",
+			"path": "google.golang.org/appengine/internal/datastore",
+			"revision": "150dc57a1b433e64154302bdc40b6bb8aefa313a",
+			"revisionTime": "2016-09-29T07:07:04Z"
+		},
+		{
+			"checksumSHA1": "Gep2T9zmVYV8qZfK2gu3zrmG6QE=",
+			"path": "google.golang.org/appengine/internal/log",
+			"revision": "150dc57a1b433e64154302bdc40b6bb8aefa313a",
+			"revisionTime": "2016-09-29T07:07:04Z"
+		},
+		{
+			"checksumSHA1": "eLZVX1EHLclFtQnjDIszsdyWRHo=",
+			"path": "google.golang.org/appengine/internal/modules",
+			"revision": "150dc57a1b433e64154302bdc40b6bb8aefa313a",
+			"revisionTime": "2016-09-29T07:07:04Z"
+		},
+		{
+			"checksumSHA1": "a1XY7rz3BieOVqVI2Et6rKiwQCk=",
+			"path": "google.golang.org/appengine/internal/remote_api",
+			"revision": "150dc57a1b433e64154302bdc40b6bb8aefa313a",
+			"revisionTime": "2016-09-29T07:07:04Z"
+		},
+		{
+			"checksumSHA1": "piNG4dTjR7jcimOvvnZhXXPMGzQ=",
+			"path": "google.golang.org/appengine/log",
+			"revision": "150dc57a1b433e64154302bdc40b6bb8aefa313a",
+			"revisionTime": "2016-09-29T07:07:04Z"
 		}
 	],
 	"rootPath": "github.com/rumyantseva/vk-authorization-example"
