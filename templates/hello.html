@@ -1,0 +1,39 @@
+{{ define "hello" }}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Let me feel your music!</title>
+
+    <script type="text/javascript" src="/static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="/static/bootstrap-3.3.7/css/bootstrap.min.css" />
+
+</head>
+<body>
+
+<div class="container">
+    <h1 style="margin-bottom: 30px">(i) feel the music</h1>
+
+    <p>
+        Какую музыку порекомендовали бы тебе друзья, зная твой вкус?
+    </p>
+    <p>
+        Покажи мне свою vk-музыку и своих vk-друзей, и я угадаю их рекомендации.
+    </p>
+
+    <p style="margin-bottom: 30px">
+        После авторизации приложения тебе будут выданы секретные логин и пароль для доступа к рекомендациям.
+        Во время авторизации приложения в vk.com будут запрошены права на получения списков музыки и друзей, а также твой e-mail.
+        E-mail нужен на случай, если ты забудешь пароль, и его придётся сбросить.
+    </p>
+
+    <a href="https://oauth.vk.com/authorize?client_id={{ .ClientID }}&display=page&redirect_uri={{ .RedirectURI }}&scope=friends,audio,email&response_type=code&v={{ .Version }}">
+        <button type="button" class="btn btn-primary">Поехали!</button>
+    </a>
+</div>
+
+
+</body>
+</html>
+{{ end }}

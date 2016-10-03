@@ -1,0 +1,18 @@
+[server]
+
+address = "127.0.0.1:8080"
+
+[database]
+
+address = "127.0.0.1:5432"
+name = "auth"
+user = "postgres"
+password = "postgres"
+
+[vk]
+
+client_id = 1
+client_secret = "my secret"
+version = "5.57"
+oauth_redirect_uri = "http://127.0.0.1:8080/ui/verify"
+

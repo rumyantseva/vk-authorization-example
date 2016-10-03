@@ -1,0 +1,28 @@
+{{ define "verify" }}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Let me feel your music!</title>
+
+    <script type="text/javascript" src="/static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="/static/bootstrap-3.3.7/css/bootstrap.min.css" />
+
+</head>
+<body>
+
+<div class="container">
+    <h1 style="margin-bottom: 30px">(i) feel the music</h1>
+
+    <p>
+        Вы успешно зарегистрировались в системе.
+        Пожалуйста, используйте логин <b>1000{{ .Login }}</b>
+        и пароль <b>{{ .Pass }}</b> для доступа к API.
+    </p>
+</div>
+
+
+</body>
+</html>
+{{ end }}
